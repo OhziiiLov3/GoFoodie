@@ -31,9 +31,9 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
   - [ ] At least five images with captions that convey the local atmosphere or highlights.
   - [ ] A gallery presented in a responsive design.
 
-- [ ] **Navigation Bar**
-  - [ ] Links to each main page of the site (Home, Top Attractions, Photo Gallery, and the chosen Guide section).
-  - [ ] A navigation bar styled with Flexbox that adapts to different screen sizes.  
+- [ x] **Navigation Bar**
+  - [ x] Links to each main page of the site (Home, Top Attractions, Photo Gallery, and the chosen Guide section).
+  - [ x] A navigation bar styled with Flexbox that adapts to different screen sizes.  
 
 - [ ] **Smartphone Friendly**
   - [ ] A design that is fully functional and aesthetically pleasing on smartphones, achieved with media queries.

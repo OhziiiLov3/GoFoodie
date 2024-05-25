@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-color: #76c8b1;
+  --primary-color2: #29eeec;
+  --secondary-color: #017ece;
+  --primary-dark: #181818;
+  --primary-white: #ffffff;
+  --font-color: #676767;
+  --time-line-color: #b8f9f8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-height: 100vh;
+  background-color: var(--primary-white);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Navbar */
+
+.header {
+  background-color: var(--primary-white);
+  border-bottom: 2px solid #017ece;
+  padding: 5px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.logo h3 {
+  color: var(--secondary-color);
+}
+
+.logo img {
+  max-height: 55px;
+  height: 100%;
+  width: auto;
+  border-radius: 50%;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  justify-content: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 400;
+  position: relative;
+}
+
+.nav-links a::after {
+  content: ''; 
+  position: absolute;
+  left: 0; 
+  bottom: -2px; 
+  width: 100%; 
+  height: 2px; 
+  background-color: transparent; 
+  transition: background-color 0.3s ease; 
+}
+
+.nav-links a:hover::after {
+  background-color: var(--primary-color2); /* Change color on hover */
+}
+
+#menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--primary-color2);
+  margin-left: 10px;
+}
+
+h1 {
+  color: var(--secondary-color);
+}
+
+/* Media queires */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .logo h3 {
+    margin-right: auto; /* Push h3 to the left */
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 20px;
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  #menu-toggle {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--secondary-color);
+  }
+
+  .logo {
+    flex: none;
+  }
+}
