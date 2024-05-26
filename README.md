@@ -12,11 +12,11 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 #### CORE FEATURES
 
-- [ ] **Home Page**
-  - [ ] A heading that captures the essence of the destination.
-  - [ ] An introductory paragraph that welcomes visitors and sets the context for the site.
-  - [ ] An evocative image that represents the location.
-  - [ ] Content organized using Flexbox for a fluid layout.
+- [x] **Home Page**
+  - [x] A heading that captures the essence of the destination.
+  - [] An introductory paragraph that welcomes visitors and sets the context for the site.
+  - [x] An evocative image that represents the location.
+  - [x] Content organized using Flexbox for a fluid layout.
 
 - [ ] **Top Attractions Page**
   - [ ] A minimum of three attractions, each with a name, a photo, and a brief description.
@@ -31,9 +31,9 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
   - [ ] At least five images with captions that convey the local atmosphere or highlights.
   - [ ] A gallery presented in a responsive design.
 
-- [ x] **Navigation Bar**
-  - [ x] Links to each main page of the site (Home, Top Attractions, Photo Gallery, and the chosen Guide section).
-  - [ x] A navigation bar styled with Flexbox that adapts to different screen sizes.  
+- [x] **Navigation Bar**
+  - [x] Links to each main page of the site (Home, Top Attractions, Photo Gallery, and the chosen Guide section).
+  - [x] A navigation bar styled with Flexbox that adapts to different screen sizes.  
 
 - [ ] **Smartphone Friendly**
   - [ ] A design that is fully functional and aesthetically pleasing on smartphones, achieved with media queries.

@@ -178,18 +178,59 @@ body {
 
 /* Main */
 
-.main-content h4{
+.main-content{
     text-align: center;
-    margin-top: 20px;
+    padding: 20px;
 }
 
-.main-content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+.main-content h4 {
+    font-size: 24px;
+    color: var(--secondary-color);
+    margin-bottom: 20px; 
 }
 
+.card {
+    display: inline-block; /* Display the cards in a row */
+    margin: 0 10px; /* Add margin around each card */
+    vertical-align: top; /* Align the cards to the top */
+}
 
+.card img {
+    width: 300px; 
+    height: 200px; 
+    border-radius: 8px; /* Add some border radius to round the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the cards */
+}
+
+.card a {
+    display: block; /* Make the link fill the entire width of the card */
+    margin-top: 10px; /* Add some space between the image and the link */
+    color: #017ece; /* Set the link color */
+    text-decoration: none; /* Remove the default underline */
+}
+
+.main-content p{
+    color: var(--primary-dark);
+    margin-top: 40px;
+}
+
+.main-content a{
+    
+}
+
+/* Footer */
+
+
+footer {
+  /* position: absolute; */
+  /* bottom: 0; */
+  width: 100%;
+  height: 50px; 
+  background-color: #017ece; 
+  color: white; 
+  text-align: center; 
+  line-height: 50px; 
+}
 
 
 /* Media queires */
