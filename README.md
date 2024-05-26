@@ -18,9 +18,9 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
   - [x] An evocative image that represents the location.
   - [x] Content organized using Flexbox for a fluid layout.
 
-- [ ] **Top Attractions Page**
-  - [ ] A minimum of three attractions, each with a name, a photo, and a brief description.
-  - [ ] Content arranged with Flexbox for consistency and responsiveness.
+- [x] **Top Attractions Page**
+  - [x] A minimum of three attractions, each with a name, a photo, and a brief description.
+  - [x] Content arranged with Flexbox for consistency and responsiveness.
 
 - [ ] **Guide Section (Choose One)**
   - [ ] Either a Food Guide, Accommodations Guide, or Upcoming Local Events guide.
@@ -43,7 +43,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 - [ ] **Additional Media**
   - Embed a map or a video that relates to the travel content.
 
-- [ ] **Enhanced Layouts**
+- [x] **Enhanced Layouts**
   - Utilize CSS Grid on one or more pages for a unique layout.
 
 - [ ] **Interactive Features**
@@ -58,8 +58,8 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
   - Create a form to allow users to sign up for a travel newsletter, enhancing user engagement.
 
 - [ ] **Custom Styling**: Add a personal touch to your site's design.
-  - [ ] Integrate at least one custom font using Google Fonts to add personality to your site.
-  - [ ] Experiment with at least one CSS property not covered in the lessons or labs to customize your page further.
+  - [x] Integrate at least one custom font using Google Fonts to add personality to your site.
+  - [x] Experiment with at least one CSS property not covered in the lessons or labs to customize your page further.
 
 ### Walkthrough Video
 

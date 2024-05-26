@@ -216,9 +216,9 @@ body {
 .main-content p{
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    color: var(--primary-dark);
+     color: var(--font-color);
      margin: 10px 60px;
-    padding: 10px;
+     padding: 10px;
     
 }
 
@@ -234,13 +234,51 @@ body {
 .top-attractions-content{
     text-align: center;
     padding: 20px;
+    position: relative;
 }
+
+#attraction-logo {
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+}
+
+#attraction-logo img {
+    width: 100px; 
+    height: auto;
+}
+
 
 .top-attractions-content h1 {
     color: var(--secondary-color);
     margin: 10px 20px; 
     padding: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.top-attractions-content p {
+    font-family: "Shadows Into Light Two", cursive; 
+    color: var(--primary-dark);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+}
+
+#top-attraction-p{
+ font-family: "Montserrat", sans-serif;
+ color: var(--font-color);
+ margin: 20px 40px;
+ padding: 20px;
+}
+
+.top-attraction-card a{
+ margin: 10px 20px;
+ padding: 10px;
+ 
+}
+
+.top-attraction-card img{
+    max-width: 60%;
+    width: 70%;
+    height: auto;
 }
 
 
