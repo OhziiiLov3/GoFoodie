@@ -175,6 +175,7 @@ body {
 
 .hero-content-col-2 img {
   max-width: 100%;
+  width: 70%;
 }
 
 /* Main */
@@ -227,14 +228,30 @@ body {
     padding: 10px;
 }
 
-/* Footer */
 
+/* Top Attractions Page */
+
+.top-attractions-content{
+    text-align: center;
+    padding: 20px;
+}
+
+.top-attractions-content h1 {
+    color: var(--secondary-color);
+    margin: 10px 20px; 
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Footer */
 
 footer {
   /* position: absolute; */
   /* bottom: 0; */
   width: 100%;
   height: 50px; 
+  font-weight: 500;
   background-color: #017ece; 
   color: white; 
   text-align: center; 
