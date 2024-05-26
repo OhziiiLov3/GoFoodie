@@ -14,7 +14,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 - [x] **Home Page**
   - [x] A heading that captures the essence of the destination.
-  - [] An introductory paragraph that welcomes visitors and sets the context for the site.
+  - [x] An introductory paragraph that welcomes visitors and sets the context for the site.
   - [x] An evocative image that represents the location.
   - [x] Content organized using Flexbox for a fluid layout.
 

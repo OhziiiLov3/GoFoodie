@@ -157,7 +157,8 @@ body {
   margin: 10px 20px;
 }
 .hero-content-col-1 button {
-   font-family: "Shadows Into Light Two", cursive;
+     font-family: "Montserrat", sans-serif;
+     font-weight: 500;
 }
 
 .hero-content-col-1 button:hover {
@@ -184,38 +185,46 @@ body {
 }
 
 .main-content h4 {
+    font-family: "Shadows Into Light Two", cursive;
     font-size: 24px;
     color: var(--secondary-color);
-    margin-bottom: 20px; 
+    margin: 20px 20px; 
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .card {
-    display: inline-block; /* Display the cards in a row */
-    margin: 0 10px; /* Add margin around each card */
-    vertical-align: top; /* Align the cards to the top */
+    display: inline-block; 
+    margin: 0 10px; 
+    vertical-align: top; 
 }
-
 .card img {
     width: 300px; 
     height: 200px; 
-    border-radius: 8px; /* Add some border radius to round the corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the cards */
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .card a {
-    display: block; /* Make the link fill the entire width of the card */
-    margin-top: 10px; /* Add some space between the image and the link */
-    color: #017ece; /* Set the link color */
-    text-decoration: none; /* Remove the default underline */
+    display: block; 
+    margin-top: 10px; 
+    color: #017ece; 
+    text-decoration: none; 
 }
 
 .main-content p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
     color: var(--primary-dark);
-    margin-top: 40px;
+     margin: 10px 60px;
+    padding: 10px;
+    
 }
 
 .main-content a{
-    
+    color: var(--secondary-color);
+    margin: 10px 20px;
+    padding: 10px;
 }
 
 /* Footer */
