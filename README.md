@@ -4,8 +4,6 @@
 
 Submitted by: **Keith Baskerville**
 
-Estimated time spent: **#** hours spent in total
-
 Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 ### Application Features
@@ -27,9 +25,9 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
   - [x] At least three entries that provide a name, address, and a description catered to a specific type of traveler (families, backpackers, etc.).
   - [x] Links to more information for each entry, laid out using Flexbox.
 
-- [ ] **Photo Gallery**
-  - [ ] At least five images with captions that convey the local atmosphere or highlights.
-  - [ ] A gallery presented in a responsive design.
+- [x] **Photo Gallery**
+  - [x] At least five images with captions that convey the local atmosphere or highlights.
+  - [x] A gallery presented in a responsive design.
 
 - [x] **Navigation Bar**
   - [x] Links to each main page of the site (Home, Top Attractions, Photo Gallery, and the chosen Guide section).
