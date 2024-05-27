@@ -25,7 +25,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 - [x] **Guide Section (Choose One)**
   - [x] Either a Food Guide, Accommodations Guide, or Upcoming Local Events guide.
   - [x] At least three entries that provide a name, address, and a description catered to a specific type of traveler (families, backpackers, etc.).
-  - [ ] Links to more information for each entry, laid out using Flexbox.
+  - [x] Links to more information for each entry, laid out using Flexbox.
 
 - [ ] **Photo Gallery**
   - [ ] At least five images with captions that convey the local atmosphere or highlights.
@@ -40,7 +40,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 #### STRETCH FEATURES
 
-- [ ] **Additional Media**
+- [x] **Additional Media**
   - Embed a map or a video that relates to the travel content.
 
 - [x] **Enhanced Layouts**
@@ -57,7 +57,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 - [ ] **User Engagement**: Encourage interaction and engagement from your site visitors.
   - Create a form to allow users to sign up for a travel newsletter, enhancing user engagement.
 
-- [ ] **Custom Styling**: Add a personal touch to your site's design.
+- [x] **Custom Styling**: Add a personal touch to your site's design.
   - [x] Integrate at least one custom font using Google Fonts to add personality to your site.
   - [x] Experiment with at least one CSS property not covered in the lessons or labs to customize your page further.
 
