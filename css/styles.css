@@ -77,6 +77,53 @@ body {
   margin-left: 10px;
 }
 
+
+/* Stretch Feature- Dropdown Nav for sub Categories */
+
+.more {
+  position: relative;
+}
+
+.more .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--primary-white);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.more:hover .dropdown {
+  display: block;
+}
+
+.dropdown li {
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.dropdown li:last-child {
+  border-bottom: none;
+}
+
+.dropdown li a {
+  padding: 10px 20px;
+  display: block;
+  color: var(--secondary-color);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.dropdown li a:hover {
+  background-color: var(--primary-color2);
+  color: var(--primary-white);
+}
+
+
 .logo {
   display: flex;
   align-items: center;
