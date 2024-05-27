@@ -4,7 +4,7 @@
 
 Submitted by: **Keith Baskerville**
 
-Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
+Deployed Application (optional): [GoFoodie Deployed Site](https://gofoodieintl.netlify.app/)
 
 ### Application Features
 
