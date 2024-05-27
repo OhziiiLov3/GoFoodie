@@ -157,8 +157,8 @@ body {
   margin: 10px 20px;
 }
 .hero-content-col-1 button {
-     font-family: "Montserrat", sans-serif;
-     font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 .hero-content-col-1 button:hover {
@@ -180,106 +180,153 @@ body {
 
 /* Main */
 
-.main-content{
-    text-align: center;
-    padding: 20px;
+.main-content {
+  text-align: center;
+  padding: 20px;
 }
 
 .main-content h4 {
-    font-family: "Shadows Into Light Two", cursive;
-    font-size: 24px;
-    color: var(--secondary-color);
-    margin: 20px 20px; 
-    padding: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 24px;
+  color: var(--secondary-color);
+  margin: 20px 20px;
+  padding: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .card {
-    display: inline-block; 
-    margin: 0 10px; 
-    vertical-align: top; 
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
 }
 .card img {
-    width: 300px; 
-    height: 200px; 
-    border-radius: 8px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .card a {
-    display: block; 
-    margin-top: 10px; 
-    color: #017ece; 
-    text-decoration: none; 
+  display: block;
+  margin-top: 10px;
+  color: #017ece;
+  text-decoration: none;
 }
 
-.main-content p{
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-     color: var(--font-color);
-     margin: 10px 60px;
-     padding: 10px;
-    
+.main-content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: var(--font-color);
+  margin: 10px 60px;
+  padding: 10px;
 }
 
-.main-content a{
-    color: var(--secondary-color);
-    margin: 10px 20px;
-    padding: 10px;
+.main-content a {
+  color: var(--secondary-color);
+  margin: 10px 20px;
+  padding: 10px;
 }
-
 
 /* Top Attractions Page */
 
-.top-attractions-content{
-    text-align: center;
-    padding: 20px;
-    position: relative;
-}
-
-#attraction-logo {
-    position: absolute; 
-    top: 20px; 
-    left: 20px; 
+.top-attractions-content {
+  text-align: center;
+  padding: 20px;
+  /* position: relative; */
 }
 
 #attraction-logo img {
-    width: 100px; 
-    height: auto;
+  width: 200px;
+  height: auto;
+  position: absolute;
+  margin: 10px 20px;
+  padding: 20px;
+  top: 40px;
+  left: 20px;
 }
 
-
 .top-attractions-content h1 {
-    color: var(--secondary-color);
-    margin: 10px 20px; 
-    padding: 10px;
+  color: var(--secondary-color);
+  margin: 40px 0;
+  padding: 20px 0;
 }
 
 .top-attractions-content p {
-    font-family: "Shadows Into Light Two", cursive; 
-    color: var(--primary-dark);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    font-weight: 600;
+  font-family: "Shadows Into Light Two", cursive;
+  color: var(--primary-dark);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
 }
 
-#top-attraction-p{
- font-family: "Montserrat", sans-serif;
- color: var(--font-color);
- margin: 20px 40px;
- padding: 20px;
+#top-attraction-p {
+  font-family: "Montserrat", sans-serif;
+  color: var(--font-color);
+  margin: 20px 40px;
+  padding: 20px;
 }
 
-.top-attraction-card a{
- margin: 10px 20px;
- padding: 10px;
- 
+.top-attraction-card a {
+  margin: 10px 20px;
+  padding: 10px;
 }
 
-.top-attraction-card img{
-    max-width: 60%;
-    width: 70%;
-    height: auto;
+
+
+/* Food Guide page */
+
+.food-guide {
+  text-align: center;
+  padding: 20px 20px;
 }
+
+.food-guide h1{
+    color: var(--secondary-color);
+    margin: 40px 0;
+    padding: 20px 0;
+}
+
+
+#food-logo img {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+
+
+#food-guide-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.food-card{
+    background-color: var(--primary-white);
+    border: 2px solid var(--secondary-color);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.food-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.food-card h3 {
+    color: var(--secondary-color);
+    margin: 10px 0;
+}
+
+
 
 
 /* Footer */
@@ -288,14 +335,13 @@ footer {
   /* position: absolute; */
   /* bottom: 0; */
   width: 100%;
-  height: 50px; 
+  height: 50px;
   font-weight: 500;
-  background-color: #017ece; 
-  color: white; 
-  text-align: center; 
-  line-height: 50px; 
+  background-color: #017ece;
+  color: white;
+  text-align: center;
+  line-height: 50px;
 }
-
 
 /* Media queires */
 @media (max-width: 768px) {
