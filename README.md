@@ -52,7 +52,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 - [x] **Interactive Navigation**: Enhance the usability of your navigation bar.
   - Implement a dropdown menu in the navigation bar to organize additional categories or sub-pages.
 
-- [ ] **User Engagement**: Encourage interaction and engagement from your site visitors.
+- [x] **User Engagement**: Encourage interaction and engagement from your site visitors.
   - Create a form to allow users to sign up for a travel newsletter, enhancing user engagement.
 
 - [x] **Custom Styling**: Add a personal touch to your site's design.

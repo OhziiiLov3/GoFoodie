@@ -277,6 +277,54 @@ body {
   align-self: center;
 }
 
+/* Newsletter Form */
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-form h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  color: var(--secondary-color);
+}
+
+.newsletter-form input[type="text"],
+.newsletter-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.newsletter-form button {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: var(--time-line-color);
+  color: var(--font-color);
+}
+
+
 /* Top Attractions Page */
 
 .top-attractions-content {
@@ -307,7 +355,7 @@ body {
   font-family: "Shadows Into Light Two", cursive;
   color: var(--primary-dark);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 #top-attraction-p {
