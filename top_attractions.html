@@ -8,7 +8,10 @@
     <link rel="icon" href="assets/favicon.ico" type="image/png">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Leaflet JavaScript library -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script defer src="js/main.js"></script>
     <title>GoFoodie</title>
 </head>
@@ -24,6 +27,14 @@
                 <li class="nav-item"><a href="index.html">Home</a></li>
                 <li class="nav-item"><a href="top_attractions.html">Top Attractions</a></li>
                 <li class="nav-item"><a href="food_guide.html">Food Guide</a></li>
+                <li class="nav-item more">
+                 <a href="#">More <i class="fa-solid fa-caret-down"></i></a>
+                 <ul class="dropdown">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="booking.html">Book a Trip</a></li>
+                 </ul>
+                </li>
                 <li class="nav-item"><a href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
@@ -34,6 +45,7 @@
         </div>
             <h1>Top Attractions<h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, facere.</p>
+                <div id="map"></div>
     <section class="top-attractions">
     <div class="card top-attraction-card">
         <a href="page1.html">St.Thomas</a>

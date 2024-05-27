@@ -330,6 +330,17 @@ body {
   height: auto;
 }
 
+/* Leaflet-OpenStreet Map */
+
+#map{
+  max-width: 70%;
+  width: 50%;
+  height: 400px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow:  rgba(0, 0, 0, 0.2);
+}
+
 /* Food Guide page */
 
 .food-guide {
@@ -546,6 +557,11 @@ footer {
 .photo-gallery{
   flex-direction: column;
 
+}
+
+#map{
+  margin-top: 20px;
+  height: 200px;
 }
 
 }
