@@ -66,7 +66,7 @@ body {
 }
 
 .nav-links a:hover::after {
-  background-color: var(--primary-color2); /* Change color on hover */
+  background-color: var(--primary-color2);
 }
 
 #menu-toggle {
@@ -200,6 +200,7 @@ body {
   vertical-align: top;
 }
 .card img {
+  /* max-width: 70%; */
   width: 300px;
   height: 200px;
   border-radius: 8px;
@@ -235,7 +236,7 @@ body {
   /* position: relative; */
 }
 
-#attraction-logo img {
+#page-logo img {
   width: 200px;
   height: auto;
   position: absolute;
@@ -270,69 +271,102 @@ body {
   padding: 10px;
 }
 
-
+.top-attraction-card img {
+  max-width: 50%;
+  width: 60%;
+  height: auto;
+}
 
 /* Food Guide page */
 
 .food-guide {
   text-align: center;
   padding: 20px 20px;
+  min-height: 100vh;
 }
 
-.food-guide h1{
-    color: var(--secondary-color);
-    margin: 40px 0;
-    padding: 20px 0;
+.food-guide h1 {
+  color: var(--secondary-color);
+  margin: 40px 0;
+  padding: 20px 0;
 }
 
-
-#food-logo img {
-  width: 200px;
-  height: auto;
-  position: absolute;
-  top: 40px;
-  left: 20px;
+#food-guide-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-
-#food-guide-content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+.food-card {
+  background-color: var(--primary-white);
+  border: 2px solid var(--secondary-color);
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-.food-card{
-    background-color: var(--primary-white);
-    border: 2px solid var(--secondary-color);
-    border-radius: 8px;
-    padding: 20px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 
 .food-card img {
-    width: 100%;
-    height: 200px;
-    border-radius: 8px;
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .food-card h3 {
-    color: var(--secondary-color);
-    margin: 10px 0;
+  color: var(--secondary-color);
+  margin: 10px 0;
 }
 
+#card-title {
+  font-size: 12px;
+  margin: 10px;
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 700;
+}
 
+#card-address{
+    font-size: 14px;
+    color: var(--primary-dark);
+}
 
+.food-card p {
+  color: var(--font-color);
+  margin: 5px 0;
+}
+
+.food-card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: var(--primary-color2);
+  font-family: "Montserrat", sans-serif;
+  color: var(--font-color);
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: backgroud-color 0.3s;
+}
+
+.food-card a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.food-card button:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-white);
+}
 
 /* Footer */
 
 footer {
-  /* position: absolute; */
+  /* position: relative;
   /* bottom: 0; */
   width: 100%;
   height: 50px;
@@ -381,4 +415,14 @@ footer {
   .logo {
     flex: none;
   }
+
+  #page-logo {
+    display: none;
+  }
+
+  /* #page-logo.show{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  } */
 }

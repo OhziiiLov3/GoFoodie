@@ -22,9 +22,9 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
   - [x] A minimum of three attractions, each with a name, a photo, and a brief description.
   - [x] Content arranged with Flexbox for consistency and responsiveness.
 
-- [ ] **Guide Section (Choose One)**
-  - [ ] Either a Food Guide, Accommodations Guide, or Upcoming Local Events guide.
-  - [ ] At least three entries that provide a name, address, and a description catered to a specific type of traveler (families, backpackers, etc.).
+- [x] **Guide Section (Choose One)**
+  - [x] Either a Food Guide, Accommodations Guide, or Upcoming Local Events guide.
+  - [x] At least three entries that provide a name, address, and a description catered to a specific type of traveler (families, backpackers, etc.).
   - [ ] Links to more information for each entry, laid out using Flexbox.
 
 - [ ] **Photo Gallery**
@@ -35,8 +35,8 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
   - [x] Links to each main page of the site (Home, Top Attractions, Photo Gallery, and the chosen Guide section).
   - [x] A navigation bar styled with Flexbox that adapts to different screen sizes.  
 
-- [ ] **Smartphone Friendly**
-  - [ ] A design that is fully functional and aesthetically pleasing on smartphones, achieved with media queries.
+- [x] **Smartphone Friendly**
+  - [x] A design that is fully functional and aesthetically pleasing on smartphones, achieved with media queries.
 
 #### STRETCH FEATURES
 
