@@ -1,9 +1,15 @@
 # GoFoodie
  By: **Keith Baskerville**
 
+ ### Technologies
+ - Html
+ - CSS 
+ - Javascript
+ - OpenStreet API
+
  ![goFoodieImg](https://github.com/user-attachments/assets/9c426000-4292-4fe9-881c-f659d3f48ea6)
 
-Deployed Application (optional): [GoFoodie Deployed Site](https://gofoodieintl.netlify.app/)
+Deployed Application : [GoFoodie Deployed Site](https://gofoodieintl.netlify.app/)
 
 ### Application Features
 
@@ -25,7 +31,7 @@ Deployed Application (optional): [GoFoodie Deployed Site](https://gofoodieintl.n
   - Links to more information for each entry, laid out using Flexbox.
 
 #### **Photo Gallery**
-  - [x] A gallery presented in a responsive design.
+  - A gallery presented in a responsive design.
 
 #### **Navigation Bar**
   - Links to each main page of the site (Home, Top Attractions, Photo Gallery, and the chosen Guide section).
